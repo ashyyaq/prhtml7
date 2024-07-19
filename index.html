@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="c:\Users\user\Downloads\images.png" alt="Algolia Logo" class="logo-icon"> lgolia
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Favorites</a></li>
+                </ul>
+            <div class="auth-buttons">
+                    <button class="login">Login</button>
+                    <button class="signup">Sign up </button>
+            </div>
+            </nav>
+        </div>
+    </header>
+        <section class="hero">
+            <div class="hero-image">
+                <img src="c:\Users\user\Downloads\45a89fae5038c9985368a91ee1b22edd.jpeg" alt="Hero Image">
+            </div>
+            <div class="container hero-content">
+                <h1>Stop looking for a restaurant - find it.</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for Restaurants by Name, Cuisine, Location">
+                </div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="container flex-container">
+                <div class="filters">
+                    <div class="filter-section">
+                        <h3>Price</h3>
+                        <ul>
+                            <li><input type="checkbox"> Cheap</li>
+                            <li><input type="checkbox"> Affordable</li>
+                            <li><input type="checkbox"> Expensive</li>
+                            <li><input type="checkbox"> Very expensive</li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h3>Cuisine</h3>
+                        <ul>
+                            <li><input type="checkbox"> American</li>
+                            <li><input type="checkbox"> Italian</li>
+                            <li><input type="checkbox"> French</li>
+                            <li><input type="checkbox"> Japanese</li>
+                            <li><input type="checkbox"> Californian</li>
+                            <li><input type="checkbox"> Seafood</li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h3>Rating</h3>
+                        <ul>
+                            <li><input type="radio" name="rating"> <span class="stars">★☆☆☆☆</span></li>
+                            <li><input type="radio" name="rating"> <span class="stars">★★☆☆☆</span></li>
+                            <li><input type="radio" name="rating"> <span class="stars">★★★☆☆</span></li>
+                            <li><input type="radio" name="rating"> <span class="stars">★★★★☆</span></li>
+                            <li><input type="radio" name="rating"> <span class="stars">★★★★★</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="listing">
+                    <div class="listing-header">
+                        <p>Found 376 results</p>
+                        <div class="sort-options">
+                            <select>
+                                <option>Sort by: Rating: Low to High</option>
+                            </select>
+                            <select>
+                                <option>Results: 1 - 5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\MB_Michael-Carey-Photo-Credit-Mozes-Ban-728x485.jpg.webp" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>Lona Cocina</h3>
+                                <p> South Florida</p>
+                                <p>$30 and under</p>
+                                <p>★★★★☆ (1897 reviews)</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\728x485_1_b9484ad124ae62db7ba0c90483003de5@5000x3333_0xa9EFRi8X_8597435398292280055.jpg" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>Grow Food</h3>
+                                <p>Healthy diets with delivery</p>
+                                <p>$51 and under</p>
+                                <p>★★★★☆ (789 reviews)</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\728x485_1_23553d41170f0807ece873d227898a94@1200x800_0xmY0eQoRN_9167994390881941304.png" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>Anchor & James</h3>
+                                <p>Downtown Union Street</p>
+                                <p>$49 and over</p>
+                                <p>★★★★★ (334 reviews)</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\728x485_1_e7a75795f37ccf7f3f9d615604c82c35@1200x800_0xCYsefvV0_5153903191549824569.jpg" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>МО friends bar&dining</h3>
+                                <p>Moscow</p>
+                                <p>$38 and over</p>
+                                <p>★★★★☆ (558 reviews)</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\images.jfif" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>Etch</h3>
+                                <p>England</p>
+                                <p>$29 and over</p>
+                                <p>★★★★☆ (1234 reviews)</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="c:\Users\user\Downloads\main-dining-room.jpg" alt="Restaurant">
+                            <div class="card-details">
+                                <h3>Gotham Steakhouse</h3>
+                                <p>Vancouver</p>
+                                <p>$55 and over</p>
+                                <p>★★★★★ (897 reviews)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <span class="page-number active">01</span>
+                        <span class="page-number">02</span>
+                        <span class="page-number">03</span>
+                        <span class="page-number">08</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <div class="container">
+            <p>Copyright 2022 - 2024</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Website Terms</a></p>
+        </div>
+    </footer>
+</body>
+</html>
